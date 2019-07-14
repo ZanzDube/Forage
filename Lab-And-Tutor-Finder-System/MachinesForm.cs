@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Lab_And_Tutor_Finder_System
 {
-    public partial class Form1 : Form
+    public partial class MachinesForm : Form
     {
-        public Form1()
+        public MachinesForm()
         {
             InitializeComponent();
+        }
+
+        private void MachinesForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

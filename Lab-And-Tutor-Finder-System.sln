@@ -5,6 +5,19 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab-And-Tutor-Finder-System", "Lab-And-Tutor-Finder-System\Lab-And-Tutor-Finder-System.csproj", "{361CFE75-3334-499B-84AB-74232CCD9ED9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Use Case A", "Use Case A", "{EBFEBE67-DA92-4561-B72B-FA9C492E0C49}"
+	ProjectSection(SolutionItems) = preProject
+		Lab-And-Tutor-Finder-System\LoginForm.cs = Lab-And-Tutor-Finder-System\LoginForm.cs
+		Lab-And-Tutor-Finder-System\LoginForm.Designer.cs = Lab-And-Tutor-Finder-System\LoginForm.Designer.cs
+		Lab-And-Tutor-Finder-System\LoginForm.resx = Lab-And-Tutor-Finder-System\LoginForm.resx
+		Lab-And-Tutor-Finder-System\StudentRegistrationForm.cs = Lab-And-Tutor-Finder-System\StudentRegistrationForm.cs
+		Lab-And-Tutor-Finder-System\StudentRegistrationForm.Designer.cs = Lab-And-Tutor-Finder-System\StudentRegistrationForm.Designer.cs
+		Lab-And-Tutor-Finder-System\StudentRegistrationForm.resx = Lab-And-Tutor-Finder-System\StudentRegistrationForm.resx
+		Lab-And-Tutor-Finder-System\TutorRegistrationForm.cs = Lab-And-Tutor-Finder-System\TutorRegistrationForm.cs
+		Lab-And-Tutor-Finder-System\TutorRegistrationForm.Designer.cs = Lab-And-Tutor-Finder-System\TutorRegistrationForm.Designer.cs
+		Lab-And-Tutor-Finder-System\TutorRegistrationForm.resx = Lab-And-Tutor-Finder-System\TutorRegistrationForm.resx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

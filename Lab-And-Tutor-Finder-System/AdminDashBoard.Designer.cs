@@ -1,6 +1,6 @@
 ﻿namespace Lab_And_Tutor_Finder_System
 {
-    partial class Form1
+    partial class AdminDashBoard
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashBoard));
+            this.SuspendLayout();
+            // 
+            // AdminDashBoard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(571, 485);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "AdminDashBoard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "AdminDashBoard";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

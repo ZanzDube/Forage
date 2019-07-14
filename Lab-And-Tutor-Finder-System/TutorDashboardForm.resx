@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Add-user-group-woman-icon-download-png-" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Add-user-group-woman-icon-download-png-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Add-user-group-woman-icon-download-png-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Add-user-group-woman-icon-download-png-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Application-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Application-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Floor-plan-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Floor-plan-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

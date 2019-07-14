@@ -46,14 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AdminDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AdminDashBoard.Designer.cs">
+      <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MachinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MachinesForm.Designer.cs">
+      <DependentUpon>MachinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentDashboardForm.Designer.cs">
+      <DependentUpon>StudentDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentRegistrationForm.Designer.cs">
+      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TutorDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorDashboardForm.Designer.cs">
+      <DependentUpon>TutorDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TutorRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorRegistrationForm.Designer.cs">
+      <DependentUpon>TutorRegistrationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminDashBoard.resx">
+      <DependentUpon>AdminDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MachinesForm.resx">
+      <DependentUpon>MachinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentDashboardForm.resx">
+      <DependentUpon>StudentDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentRegistrationForm.resx">
+      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorDashboardForm.resx">
+      <DependentUpon>TutorDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorRegistrationForm.resx">
+      <DependentUpon>TutorRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +133,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Floor-plan-1.png" />
+    <Content Include="resources\Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview.png" />
+    <Content Include="resources\Add-user-group-woman-icon-download-png-.png" />
+    <Content Include="resources\Computer-2-icon.png" />
+    <Content Include="resources\Elegantthemes-Beautiful-Flat-Magnifying-glass.ico" />
+    <Content Include="resources\Application-Logo.png" />
+    <Content Include="resources\Monitor-Analytics-icon.png" />
+    <Content Include="resources\Science-Students-icon.png" />
+    <Content Include="resources\Student-MaleFemale-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
