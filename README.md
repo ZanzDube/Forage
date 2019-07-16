@@ -1,2 +1,2 @@
-# Forage
-A system to pair students with tutors and locate vacant machines in computer labs
+# Tutor Profile Window
+A student must have the ability to view the profile of a tutor.
