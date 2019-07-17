@@ -28,6 +28,7 @@ namespace Lab_And_Tutor_Finder_System
             //Application.Run(new LoginForm());
             //Application.Run(new StudentDashboardForm());
             Application.Run(new MachinesForm());
+            //Application.Run(new TutorDashboardForm());
         }
     }
 }

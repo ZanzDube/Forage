@@ -21,9 +21,9 @@ namespace Lab_And_Tutor_Finder_System
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Sets the value of the role type to Student 
-            //Immediately when the application is launched
+            //Sets the value of the role type to Student, 0 = Student, 1 = Tutor, 2 = Admin
             roleComboBox.SelectedIndex = 0;
+
         }
 
         /**
@@ -33,8 +33,8 @@ namespace Lab_And_Tutor_Finder_System
          *  
          **/
         private void loginButton_Click(object sender, EventArgs e)
-        {   
-            //Keeps track of the role type value, 0 = Student, 1 = Tutor, 2 = Admin
+        {       
+            //Keeps track of the role type value
             int roleType = roleComboBox.SelectedIndex;
 
             //Create a connection to a local SQL-Server database
@@ -114,5 +114,10 @@ namespace Lab_And_Tutor_Finder_System
                 registerButton.Visible = true;
             }
         }
+
+        /**
+         * TO-DO: 
+         *  1. Check for at least one empty input field
+         **/
     }
 }
