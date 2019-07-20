@@ -1,6 +1,6 @@
 ﻿namespace Lab_And_Tutor_Finder_System
 {
-    partial class StudentDashboardForm
+    partial class MainDashboardForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentDashboardForm));
-            this.logoPictureBox = new System.Windows.Forms.PictureBox();
-            this.forageLabel = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboardForm));
             this.findMachineButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.forageGroupBox = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.forageGroupBox.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // logoPictureBox
-            // 
-            this.logoPictureBox.Image = global::Lab_And_Tutor_Finder_System.Properties.Resources.Application_Logo;
-            this.logoPictureBox.Location = new System.Drawing.Point(257, 74);
-            this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(100, 102);
-            this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.logoPictureBox.TabIndex = 3;
-            this.logoPictureBox.TabStop = false;
-            // 
-            // forageLabel
-            // 
-            this.forageLabel.AutoSize = true;
-            this.forageLabel.Font = new System.Drawing.Font("Consolas", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forageLabel.Location = new System.Drawing.Point(211, 12);
-            this.forageLabel.Margin = new System.Windows.Forms.Padding(0);
-            this.forageLabel.Name = "forageLabel";
-            this.forageLabel.Padding = new System.Windows.Forms.Padding(5);
-            this.forageLabel.Size = new System.Drawing.Size(190, 66);
-            this.forageLabel.TabIndex = 2;
-            this.forageLabel.Text = "FORAGE";
             // 
             // findMachineButton
             // 
@@ -66,11 +49,11 @@
             this.findMachineButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.findMachineButton.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.findMachineButton.ForeColor = System.Drawing.Color.White;
-            this.findMachineButton.Location = new System.Drawing.Point(29, 236);
+            this.findMachineButton.Location = new System.Drawing.Point(32, 214);
             this.findMachineButton.Name = "findMachineButton";
             this.findMachineButton.Size = new System.Drawing.Size(219, 39);
             this.findMachineButton.TabIndex = 4;
-            this.findMachineButton.Text = "Find a Machine";
+            this.findMachineButton.Text = "View Labs";
             this.findMachineButton.UseVisualStyleBackColor = false;
             this.findMachineButton.Click += new System.EventHandler(this.findMachineButton_Click);
             // 
@@ -79,51 +62,91 @@
             this.button1.BackColor = System.Drawing.Color.DarkOrange;
             this.button1.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(381, 237);
+            this.button1.Location = new System.Drawing.Point(51, 213);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(219, 39);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Find a Tutor";
+            this.button1.Text = "View Tutors";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // forageGroupBox
             // 
-            this.forageGroupBox.Controls.Add(this.logoPictureBox);
-            this.forageGroupBox.Controls.Add(this.forageLabel);
+            this.forageGroupBox.Controls.Add(this.panel1);
+            this.forageGroupBox.Controls.Add(this.panel2);
             this.forageGroupBox.Location = new System.Drawing.Point(8, 7);
             this.forageGroupBox.Name = "forageGroupBox";
             this.forageGroupBox.Size = new System.Drawing.Size(607, 316);
             this.forageGroupBox.TabIndex = 6;
             this.forageGroupBox.TabStop = false;
             // 
-            // StudentDashboardForm
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.findMachineButton);
+            this.panel1.Location = new System.Drawing.Point(0, 5);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(302, 305);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Location = new System.Drawing.Point(305, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(302, 305);
+            this.panel2.TabIndex = 6;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Lab_And_Tutor_Finder_System.Properties.Resources.Workstation_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(35, 14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(216, 178);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Lab_And_Tutor_Finder_System.Properties.Resources.Tutor_Classroom_Icon;
+            this.pictureBox1.Location = new System.Drawing.Point(51, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(216, 178);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // MainDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(628, 330);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.findMachineButton);
             this.Controls.Add(this.forageGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "StudentDashboardForm";
+            this.Name = "MainDashboardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.StudentDashboardForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).EndInit();
             this.forageGroupBox.ResumeLayout(false);
-            this.forageGroupBox.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox logoPictureBox;
-        private System.Windows.Forms.Label forageLabel;
         private System.Windows.Forms.Button findMachineButton;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox forageGroupBox;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

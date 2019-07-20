@@ -93,9 +93,29 @@ namespace Lab_And_Tutor_Finder_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Empty_profile_picture_icon {
+            get {
+                object obj = ResourceManager.GetObject("Empty-profile-picture-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Floor_plan_1 {
             get {
                 object obj = ResourceManager.GetObject("Floor-plan-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tutor_Classroom_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Tutor-Classroom-Icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +136,16 @@ namespace Lab_And_Tutor_Finder_System.Properties {
         internal static System.Drawing.Bitmap Tutor_explains_math_problem_icon_math_tutor_png_512_512_preview1 {
             get {
                 object obj = ResourceManager.GetObject("Tutor-explains-math-problem-icon-math-tutor-png-512_512_preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Workstation_icon {
+            get {
+                object obj = ResourceManager.GetObject("Workstation-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace Lab_And_Tutor_Finder_System
 {
-    public partial class StudentDashboardForm : Form
+    public partial class MainDashboardForm : Form
     {
-        public StudentDashboardForm()
+        public MainDashboardForm()
         {
             InitializeComponent();
         }

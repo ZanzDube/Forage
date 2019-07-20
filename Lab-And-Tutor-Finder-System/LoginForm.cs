@@ -65,7 +65,7 @@ namespace Lab_And_Tutor_Finder_System
                 this.Hide();
                 switch (roleType)
                 {   
-                    case 0: new StudentDashboardForm().Show();
+                    case 0: new MainDashboardForm().Show();
                         break;
                     case 1: new TutorDashboardForm().Show();
                         break;

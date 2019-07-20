@@ -39,7 +39,7 @@ namespace Lab_And_Tutor_Finder_System
                 connection.Close();
                 MessageBox.Show("Successfully registered "+firstNameTextBox.Text+"!", "Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                new StudentDashboardForm().Show();
+                new MainDashboardForm().Show();
             }
             else //If the user has an existing account 
             {

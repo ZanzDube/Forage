@@ -80,11 +80,11 @@
     <Compile Include="MachinesForm.Designer.cs">
       <DependentUpon>MachinesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentDashboardForm.cs">
+    <Compile Include="MainDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentDashboardForm.Designer.cs">
-      <DependentUpon>StudentDashboardForm.cs</DependentUpon>
+    <Compile Include="MainDashboardForm.Designer.cs">
+      <DependentUpon>MainDashboardForm.cs</DependentUpon>
     </Compile>
     <Compile Include="StudentRegistrationForm.cs">
       <SubType>Form</SubType>
@@ -97,6 +97,12 @@
     </Compile>
     <Compile Include="TutorDashboardForm.Designer.cs">
       <DependentUpon>TutorDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TutorProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorProfileForm.Designer.cs">
+      <DependentUpon>TutorProfileForm.cs</DependentUpon>
     </Compile>
     <Compile Include="TutorRegistrationForm.cs">
       <SubType>Form</SubType>
@@ -115,14 +121,17 @@
     <EmbeddedResource Include="MachinesForm.resx">
       <DependentUpon>MachinesForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentDashboardForm.resx">
-      <DependentUpon>StudentDashboardForm.cs</DependentUpon>
+    <EmbeddedResource Include="MainDashboardForm.resx">
+      <DependentUpon>MainDashboardForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentRegistrationForm.resx">
       <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TutorDashboardForm.resx">
       <DependentUpon>TutorDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorProfileForm.resx">
+      <DependentUpon>TutorProfileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TutorRegistrationForm.resx">
       <DependentUpon>TutorRegistrationForm.cs</DependentUpon>
@@ -183,6 +192,9 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <None Include="resources\Tutor-Classroom-Icon.png" />
+    <None Include="resources\Workstation-icon.png" />
+    <None Include="resources\Empty-profile-picture-icon.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
