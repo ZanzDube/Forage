@@ -98,6 +98,12 @@
     <Compile Include="TutorDashboardForm.Designer.cs">
       <DependentUpon>TutorDashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TutorListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorListForm.Designer.cs">
+      <DependentUpon>TutorListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TutorProfileForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TutorDashboardForm.resx">
       <DependentUpon>TutorDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorListForm.resx">
+      <DependentUpon>TutorListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TutorProfileForm.resx">
       <DependentUpon>TutorProfileForm.cs</DependentUpon>

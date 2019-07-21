@@ -21,10 +21,5 @@ namespace Lab_And_Tutor_Finder_System
         {
 
         }
-
-        private void TutorProfileForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
