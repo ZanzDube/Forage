@@ -1,4 +1,4 @@
-# Forage
+# System Requirements Documentation
 </br></br>
 University presents a challenging landscape for most students, especially within the first year of study. Students often find themselves unprepared for many of the hurdles that they encounter, most of which are not directly related to coursework but have an impact on their level of academic productivity. For a first year student, fostering academic independence and responsibility is a crucial step in character building, yet some students do not transcend quickly enough to adapt into their new environment. At Nelson Mandela University, particularly within the Department of Computer Science, there are more than enough computing resources, but problems arise when they are all in demand at the same time. On the other hand, there is an immense amount of academic workload upon students such that tutors are most certainly always in high demand yet there are no tools to aid in the search for such valuable, scarce
 resources. In response to this problem, we came up with an idea to create an information system called FORAGE, which attempts to streamline student productivity and facilitate access to academic
