@@ -1,5 +1,5 @@
 # System Requirements Documentation
-</br></br>
+</br>
 University presents a challenging landscape for most students, especially within the first year of study. Students often find themselves unprepared for many of the hurdles that they encounter, most of which are not directly related to coursework but have an impact on their level of academic productivity. For a first year student, fostering academic independence and responsibility is a crucial step in character building, yet some students do not transcend quickly enough to adapt into their new environment. At Nelson Mandela University, particularly within the Department of Computer Science, there are more than enough computing resources, but problems arise when they are all in demand at the same time. On the other hand, there is an immense amount of academic workload upon students such that tutors are most certainly always in high demand yet there are no tools to aid in the search for such valuable, scarce
 resources. In response to this problem, we came up with an idea to create an information system called FORAGE, which attempts to streamline student productivity and facilitate access to academic
 assistance from the right people. We understand that time is of tremendous value to every student hence the main objective of this project is to be a highly accessible information system
@@ -24,6 +24,8 @@ computer lab activity.</br></br>
 The contribution of this project is at least twofold: the end-user is provided with either a
 computer machine or an ideal tutor. On the other hand an administrative user is provided with
 close contact reports that can be used in planning and forecasting aside from the conventional application data maintenance tasks.</br></br>
+![Data Model B](https://user-images.githubusercontent.com/26520289/61610723-3784e080-ac5a-11e9-9b4d-eb47d506df1a.PNG)</br>
+![Data Model A](https://user-images.githubusercontent.com/26520289/61610724-381d7700-ac5a-11e9-937a-2652b6890cdf.PNG) </br>
 ![Form Login](https://user-images.githubusercontent.com/26520289/61609779-80876580-ac57-11e9-81a4-dbc63682d1e1.png)</br>
 ![Form Student Registration](https://user-images.githubusercontent.com/26520289/61610405-5e8ee280-ac59-11e9-9e7c-6080a02dbeb3.PNG)</br>
 ![Form Tutor Registration](https://user-images.githubusercontent.com/26520289/61610411-63ec2d00-ac59-11e9-92b4-915decf3fc7f.PNG)</br>
